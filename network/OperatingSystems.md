@@ -260,7 +260,6 @@ void test_forks(int i) {
 
 <details>
 <summary>最高响应比优先 Highest Response Ratio Next（HRRN）</summary>
-
 响应比 = 1+ 等待时间/处理时间。同时考虑了等待时间的长短和估计需要的执行时间长短，很好的平衡了长短进程。非抢占，吞吐量高，开销可能较大，提供好的响应时间，无饥饿问题。
 </details>
 
@@ -277,7 +276,6 @@ void test_forks(int i) {
 
 <details>
 <summary>优先级调度算法</summary>
-
 为每个进程分配一个优先级，按优先级进行调度。为了防止低优先级的进程永远等不到调度，可以随着时间的推移增加等待进程的优先级。
 </details>
 
